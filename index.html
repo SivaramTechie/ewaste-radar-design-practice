@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h3>E-Waste Radar</h3>
+            </div>
+            <div class="right">
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                
+                    <ul class="menu__box">
+                      <li class="menu__item">Home</li>
+                            <li class="menu__item">Leader Board</li>
+                            <li class="menu__item">News</li>
+                            <li class="menu__item">Redeem</li>
+                            <li class="menu__item"><button id="login-btn">LOGIN</button></li>
+                    </ul>
+                  </div>
+                <ul>
+                    <li>Home</li>
+                    <li>Leader Board</li>
+                    <li>News</li>
+                    <li>Redeem</li>
+                </ul>
+                <div class="action">
+                    <button id="login-btn">LOGIN</button>
+                    <div class="coin">
+                        <img src="assets/img/Coin.png" alt="coin">
+                        <h5>100</h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-left">
+            <div class="hero-txt">
+                <h1>Don't trash it</h1>
+                <h2>recycle your E-waste and make a difference</h2>
+            </div>
+            <div class="search">
+                <form >
+                    <div class="top">
+                        <input type="text" id="product-search" placeholder="Search for a product to recycle">
+                        <input type="text" id="zipcode-search" placeholder="Zip code">
+                    </div>
+                    <div class="bottom">
+                        <input type="button" id="search-btn" value="SEARCH">
+                        
+                        <div id="locate-btn"><img  src="assets/img/locate.png" alt=""><p>LOCATE</p></div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="main-right">
+            <img id="hero-img" src="assets/img/heroimg.png" alt="">
+        </div>
+    </main>
+    
+</body>
+</html>
